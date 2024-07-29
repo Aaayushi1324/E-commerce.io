@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240203T111159Z
+DTSTART;TZID=Asia/Kolkata:20240206T193000
+DTEND;TZID=Asia/Kolkata:20240206T203000
+SUMMARY:Stevens Institute of Technology LIVE Webinar
+UID:b97kuj9o74rj6cpl68qjadpi70mmmorbd1l6akbfdl448pa4dlikkcbacpjg
+TZID:Asia/Kolkata
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    Please click this URL to join. https://eduamerica.zoom.us/w/89733525572?tk=FF09lLh0jFU70rr9vLFaKMknFOst32YNFE-zZobXmaw.DQYAAAAU5IjwRBY4LWtja2hqZVFvbUhEZURtZUoxamZnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=b8aZGpB3FXNktTZqWXbdAyBg6d7oIy.1&uuid=WN_U-Z4wM1xSbCVfOOaX-w-Jw\n    Passcode: 246428\n	Description: Stevens Institute of Technology is a student-centric private research university that is minutes away from New York City. It is placed 15th in the nation for PayScale's highest early and mid-career salary and 97.3% of the 2022 graduates secured desired outcomes within 6 months. \n\nAttend the webinar to directly interact with the official university representatives and learn more about different programs & their job prospects\, the admission process\, scholarships\, student life insights\, and much more.\n\n
+LOCATION:https://eduamerica.zoom.us/w/89733525572?tk=FF09lLh0jFU70rr9vLFaKMknFOst32YNFE-zZobXmaw.DQYAAAAU5IjwRBY4LWtja2hqZVFvbUhEZURtZUoxamZnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=b8aZGpB3FXNktTZqWXbdAyBg6d7oIy.1&uuid=WN_U-Z4wM1xSbCVfOOaX-w-Jw
+ORGANIZER;ROLE=REQ-PARTICIPANT;CN=EduAmerica:no-reply@zoom.us
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Ayushi Chauhan:cayushi044@gmail.com
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
